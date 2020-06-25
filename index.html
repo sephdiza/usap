@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./logo.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,900;1,100;1,200;1,300;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>USAP</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-container">
+        <a href="#"> <img src="./img/logo.svg" alt="" id="header-img" /></a>
+        <h1 id="logo">/usap</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#">home</a></li>
+          <li class="nav-link"><a href="#nav-feature">features</a></li>
+          <li class="nav-link" id="signup"><a href="#">sign in</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="info-cont">
+        <video autoplay muted loop id="video">
+          <source src="img/Pexels Videos 2795165.mp4" type="video/mp4" />
+        </video>
+        <div class="info">
+          <h1>Connect with us</h1>
+          <p>
+            An excusive social media platform of students from Computer
+            Engineering, Polytechnic University of the Philippines.
+          </p>
+          <a href="#nav-signup"
+            ><input type="button" value="Sign Up" class="signup"
+          /></a>
+        </div>
+        <div class="info-img">
+          <img src="./img/_digital_content.svg" alt="" />
+        </div>
+      </div>
+      <h2 class="feature-title" id="nav-feature">/features</h2>
+      <div class="features-cont">
+        <div class="post">
+          <img src="./img/social_media.svg" alt="" class="feature-img" />
+          <p class="feature-desc">
+            Create, like and <br />
+            share posts.
+          </p>
+        </div>
+        <div class="chat">
+          <img src="./img/chat.svg" alt="" class="feature-img" />
+          <p class="feature-desc">
+            Realtime messaging. Chat with your friends.
+          </p>
+        </div>
+        <div class="security">
+          <img src="./img/security.svg" alt="" class="feature-img" />
+          <p class="feature-desc">
+            Exclusive for PUP Computer Engineering students.
+          </p>
+        </div>
+      </div>
+      <div class="signup-form" id="nav-signup">
+        <h2>/register</h2>
+        <form id="form" action="">
+          <label for="student-number">Student number</label>
+          <input
+            type="text"
+            name="student-number"
+            id="student-number"
+            class="form-elem"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-elem"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form-elem"
+            required
+          />
+          <input type="submit" value="Sign Up" class="form-elem" />
+        </form>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <a href="https://www.github.com/sephdiza" target="_blank">joseph diza</a
+      >&copy; 2020
+    </footer>
+  </body>
+</html>
